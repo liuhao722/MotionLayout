@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity(), CompoundButton.OnCheckedChangeListener
             DemosAdapter.Demo("Fragment 过度 (2/2)", FragmentExample2Activity::class.java),
             DemosAdapter.Demo("YouTube效果", YouTubeDemoActivity::class.java),
             DemosAdapter.Demo("键触发", R.layout.motion_25_keytrigger),
-            DemosAdapter.Demo("多种", R.layout.motion_26_multistate)
+            DemosAdapter.Demo("多种Translate综合", R.layout.motion_26_multistate)
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
