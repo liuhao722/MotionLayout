@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   Copyright (C) 2018 The Android Open Source Project
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -45,9 +44,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/wcircle"
-        android:tint="#3d76df"
         android:onClick="changeState"
-        app:srcCompat="@drawable/ic_info_black_24dp"
+        android:src="@drawable/ic_info_black_24dp"
+        android:tint="#3d76df"
         tools:layout_editor_absoluteX="167dp"
         tools:layout_editor_absoluteY="434dp" />
 
@@ -65,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rotation="0"
-        app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
         tools:layout_editor_absoluteX="264dp"
         tools:layout_editor_absoluteY="586dp" />
 
@@ -73,5 +72,5 @@
         android:id="@+id/helper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:constraint_referenced_ids="imageView9"/>
+        app:constraint_referenced_ids="imageView9" />
 </androidx.constraintlayout.motion.widget.MotionLayout>
