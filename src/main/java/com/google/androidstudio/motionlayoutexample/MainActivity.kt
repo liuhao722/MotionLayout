@@ -36,8 +36,9 @@ class MainActivity : AppCompatActivity(), CompoundButton.OnCheckedChangeListener
             DemosAdapter.Demo("DrawerLayout 抽屉布局之作用于DrawerContent (2/2)", "Advanced DrawerLayout with MotionLayout", R.layout.motion_13_drawerlayout),
             DemosAdapter.Demo("侧滑SidePanel内容双约束", "Side Panel, implemented with MotionLayout only", R.layout.motion_14_side_panel),
             DemosAdapter.Demo("控制多张图视觉差切换", "Parallax background. Drag the car.", R.layout.motion_15_parallax),
-            DemosAdapter.Demo("ViewPager Example", "Using MotionLayout with ViewPager", ViewPagerActivity::class.java),
-            DemosAdapter.Demo("ViewPager Lottie Example", "Using MotionLayout and Lottie with ViewPager", ViewPagerActivity2::class.java),
+            DemosAdapter.Demo("ViewPager视觉差切换", "Using MotionLayout with ViewPager", ViewPagerActivity::class.java),
+            DemosAdapter.Demo("ViewPager视觉差切换Lottie", "Using MotionLayout and Lottie with ViewPager", ViewPagerActivity2::class.java),
+
             DemosAdapter.Demo("Complex Motion Example (1/4)", "Basic CoordinatorLayout-like behavior. Implemented with MotionLayout only, using a moving guideline. Note the view isn't resized. ", R.layout.motion_17_coordination),
             DemosAdapter.Demo("Complex Motion Example (2/4)", "Advanced CoordinatorLayout-like behavior (adding a FAB). Implemented with MotionLayout only, using a moving guideline. Note the view isn't resized.", R.layout.motion_18_coordination),
             DemosAdapter.Demo("Complex Motion Example (3/4)", "Advanced CoordinatorLayout-like behavior (adding a FAB). Implemented with MotionLayout only, using direct resizing of the view.", R.layout.motion_19_coordination),
